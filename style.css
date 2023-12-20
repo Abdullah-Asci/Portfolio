@@ -24,13 +24,13 @@ nav {
 }
 nav .profile h1 {
 	margin-left: 10px;
-	font-size: 15px;
+	font-size: 20px;
 }
 nav ul {
 	display: flex;
 	list-style-type: none;
-    margin-left: 40%;
-    font-size: 15px;
+    margin-left: 50%;
+    font-size: 20px;
 }
 nav ul li {
 	margin-left: 35px;

@@ -21,7 +21,6 @@ nav {
 	align-items: center;
 	position: sticky;
 	top: 0;
-	max-width: -200px;
 }
 nav .profile {
 	display: flex;
@@ -39,11 +38,11 @@ nav .profile h1 {
 nav ul {
 	display: flex;
 	list-style-type: none;
-    margin-left: 60%;
+    margin-left: 55%;
     font-size: 20px;
 }
 nav ul li {
-	margin-left: 30px;
+	margin-left: 35px;
 	cursor: pointer;
 }
 

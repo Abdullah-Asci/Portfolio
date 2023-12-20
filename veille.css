@@ -21,11 +21,10 @@ nav {
 	align-items: center;
 	position: sticky;
 	top: 0;
-        max-width: -200px;
 }
 nav .profile h1 {
 	margin-left: 10px;
-	font-size: 15px;
+	font-size: 20px;
 }
 nav ul {
 	display: flex;

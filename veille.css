@@ -21,7 +21,7 @@ nav {
 	align-items: center;
 	position: sticky;
 	top: 0;
-    max-width: -150px;
+        max-width: -200px;
 }
 nav .profile {
 	display: flex;

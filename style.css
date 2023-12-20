@@ -22,15 +22,6 @@ nav {
 	position: sticky;
 	top: 0;
 }
-nav .profile {
-	display: flex;
-	align-items: center;
-}
-nav .profile img {
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-}
 nav .profile h1 {
 	margin-left: 10px;
 	font-size: 15px;
@@ -38,8 +29,8 @@ nav .profile h1 {
 nav ul {
 	display: flex;
 	list-style-type: none;
-    margin-left: 55%;
-    font-size: 20px;
+    margin-left: 40%;
+    font-size: 15px;
 }
 nav ul li {
 	margin-left: 35px;

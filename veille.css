@@ -45,6 +45,21 @@ li a {
 	margin: 4%;
 }
 
+.bouton {
+	margin-top: 2%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	border:#000 1px solid;
+	background-color: #fff;
+	color: #000;
+	height: 40px;
+	padding: 8px 16px;
+	border-radius: 10px;
+}
+
 .page-content header {
 	margin-top: 5%;
 	max-width: 80%;

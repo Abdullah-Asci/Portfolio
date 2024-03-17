@@ -33,23 +33,32 @@ nav ul {
     font-size: 20px;
 }
 nav ul li {
-	margin-left: 35px;
+	margin-left: 30px;
 	cursor: pointer;
+	margin-top: 4%;
 }
-
 
 li a {
 	color: #ffffff;
 }
 
-.page-content {
-	margin: 4%;
+.page-content header h1 {
+	text-decoration: underline;
+	margin-right: 10%;
 }
 .page-content header {
 	margin-top: 5%;
 	max-width: 80%;
 	color: #fff;
 	margin-left: 5%;
+}
+
+.page-content header div {
+	margin-top: 5%;
+	max-width: 80%;
+	color: #fff;
+	margin-left: -1%;
+	margin-top: 3%;
 }
 .page-content header h1 {
 	margin: 0;
@@ -84,7 +93,7 @@ li a {
 	color: #fff;
     width: 25%;
     margin-left: 65%;
-    margin-top: -4%;
+    margin-top: -5%;
 }
 
 .page-content .description-bts {
@@ -132,7 +141,7 @@ li a {
 }
 
 footer {
-	margin-top: 5%;
+	margin-top: 10%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -147,39 +156,4 @@ footer .colonne p {
 }
 footer .colonne p:hover {
 	color: #fff;
-}
-
-@media screen and (max-width: 700px) {
-	nav {
-		justify-content: center;
-	}
-	nav ul {
-		display: none;
-	}
-
-	.page-content header {
-		margin-top: 10%;
-		max-width: 100%;
-	}
-	.page-content .projects-section {
-		margin-top: 15%;
-	}
-	.page-content .projects-section h1 {
-		font-size: 1.5em;
-	}
-	.page-content .projects-section .project {
-		margin-right: 0;
-		margin-bottom: 20px;
-		max-width: 100%;
-	}
-	.page-content .projects-section .project .description {
-		font-size: 13px;
-	}
-
-	footer {
-		justify-content: flex-start;
-	}
-	footer .column {
-		width: 80%;
-	}
 }

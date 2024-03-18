@@ -87,6 +87,8 @@ li a {
 	font-size: 35px;
 	margin-top: 10%;
 	text-decoration: underline;
+	font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 .page-content .project div {
     margin-top: 3.5%;

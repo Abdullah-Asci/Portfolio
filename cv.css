@@ -58,7 +58,7 @@ li a {
 	font-size: 3vw;
 	color: #fff;
     font-size: 30px;
-    margin-left: 50%;
+    margin-left: 47%;
     text-decoration: underline;
 }
 .page-content header p {
@@ -78,19 +78,19 @@ li a {
 }
 .page-content .presentation-image {
 	margin-top: 5%;
-    margin-left: 32%;
-    width: 50%;
+    margin-left: 19%;
 }
 .page-content .presentation-image img {
 	max-width: 100%;
 	height: auto;
 	color: #fff;
+	width: 75%;
 }
 
 .bouton {
 	margin-top: 2%;
 	margin-bottom: 5%;
-	margin-left: 45%;
+	margin-left: 42.5%;
 	display: inline-block;
 	vertical-align: middle;
 	text-align: center;
@@ -103,10 +103,10 @@ li a {
 	padding: 8px 16px;
 	border-radius: 10px;
 }
-.page-content .tableau-img {
+.page-content .tableau-img img {
 	margin-top: 5%;
-    margin-left: 29.5%;
-    width: 50%;
+    margin-left: 12%;
+    width: 75%;
 }
 
 .tableau h1 {
@@ -115,7 +115,7 @@ li a {
 	font-size: 3vw;
 	color: #fff;
     font-size: 30px;
-    margin-left: 43.3%;
+    margin-left: 41%;
     text-decoration: underline;
 	margin-right: 37%;
 }

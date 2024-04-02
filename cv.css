@@ -54,11 +54,10 @@ li a {
 .page-content header h1 {
 	margin: 0;
 	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
 	font-size: 3vw;
 	color: #fff;
     font-size: 30px;
-    margin-left: 47%;
+    margin-left: 42%;
     text-decoration: underline;
 }
 .page-content header p {
@@ -111,11 +110,10 @@ li a {
 
 .tableau h1 {
 	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
 	font-size: 3vw;
 	color: #fff;
     font-size: 30px;
-    margin-left: 41%;
+    margin-left: 43%;
     text-decoration: underline;
 	margin-right: 37%;
 }

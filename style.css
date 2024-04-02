@@ -59,11 +59,11 @@ li a {
 	color: #fff;
 	margin-left: -1%;
 	margin-top: 3%;
+	font-size: 20px;
 }
 .page-content header h1 {
 	margin: 0;
 	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
 	font-size: 3vw;
 	color: #fff;
     font-size: 35px;
@@ -108,14 +108,15 @@ li a {
 .page-content .description-bts div {
     margin-top: 40%;
     margin: 40px;
+	font-size: 20px;
 }
 
 .page-content .projects-section {
-	margin-top: 6%;
+	margin-top: -26%;
 	color: #fff;
+	font-size: 20px;
 }
 .page-content .projects-section h1 {
-	font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 	font-size: 3vw;
 	color: #ffffff;
@@ -139,6 +140,11 @@ li a {
 .page-content .projects-section .project .dates {
 	font-size: 13px;
 	color: rgb(255, 255, 255);
+}
+
+.page-content .maps iframe {
+	margin-left: 65%;
+	margin-top: 8%;
 }
 
 footer {

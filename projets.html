@@ -137,9 +137,29 @@
 					<div class="project">
 						<h4 id = "Personnel">Personnel</h4>
 						<p class="description">
-							Nous avons créer en équipe une application en Java qui permet de gérer les Ligues. Cette application, très simple, n’existe qu’en ligne de commande et est mono-utilisateur. Il permet de gérer les employés, les ligues et l'administrateur. Par exemple, on peut ajouter, supprimer ou modifier un employé ou une ligue.
+							<div>
+								En collaboration mon équipe, nous avons développé une application en Java dédiée à la gestion des ligues. Cette application, bien qu’essentielle, 
+								reste basique et fonctionne exclusivement en ligne de commande, avec un mode mono-utilisateur. Elle offre des fonctionnalités pratiques pour gérer les 
+								employés, les ligues et l’administrateur du système. Par exemple, il est possible d’ajouter un employé à une ligue, de supprimer un employé existant ou 
+								encore de modifier les informations d’une ligue.
+							</div>
+							
+							<div>
+								L’objectif principal de cette application est de simplifier la gestion des structures sportives ou autres 
+								regroupées en ligues. Chaque utilisateur peut facilement naviguer dans les menus pour effectuer les opérations nécessaires. Malgré sa simplicité, elle 
+								répond efficacement aux besoins de base en matière de gestion. Sa conception repose sur des principes fondamentaux de programmation orientée objet. 
+								Enfin, cette version initiale constitue une base solide pour des évolutions futures, comme une interface graphique ou une utilisation multi-utilisateur.
+							</div>
 						</p>
 						<p class="dates">Dates 2023/2024</p>
+						<p>Voici le MCD du project :</p>
+						<section class="presentation-image">
+							<img src="images/MCDv2.JPG"/>
+						</section>
+						<p>Voici le script de création de table pour la base de donnée du project :</p>
+						<section class="presentation-image2">
+							<img src="images/scriptBDD.JPG"/>
+						</section>
 					</div>
 					<section class="bouton">
 						<a href="pdf/AP2_Personnel.pdf" data-insertor-excluded="1">AP Personnel doc.pdf</a>
@@ -164,6 +184,17 @@
 				</div>
 			</section>
 		</section>
+
+		<script>
+			document.querySelectorAll('.project').forEach(project => { 
+				project.addEventListener('mouseenter', () => { 
+					project.style.boxShadow = '0 8px 16px rgba(0, 0, 0, 0.2)'; 
+				}); 
+				project.addEventListener('mouseleave', () => { 
+					project.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)'; 
+				}); 
+			}); 
+		</script>
 
 		<footer>
 			<div class="colonne">

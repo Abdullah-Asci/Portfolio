@@ -132,6 +132,28 @@
 			</div>
 		</section>
 
+		<script>
+			document.querySelectorAll('.project').forEach(project => { 
+				project.addEventListener('mouseenter', () => { 
+					project.style.boxShadow = '0 8px 16px rgba(0, 0, 0, 0.2)'; 
+				}); 
+				project.addEventListener('mouseleave', () => { 
+					project.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)'; 
+				}); 
+			}); 
+		</script>
+
+		<script>
+			document.querySelectorAll('.project2').forEach(project => { 
+				project.addEventListener('mouseenter', () => { 
+					project.style.boxShadow = '0 8px 16px rgba(0, 0, 0, 0.2)'; 
+				}); 
+				project.addEventListener('mouseleave', () => { 
+					project.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)'; 
+				}); 
+			}); 
+		</script>
+
 		<footer>
 			<div class="colonne">
 				<h3>Mes compétences</h3>

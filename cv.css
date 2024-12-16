@@ -89,8 +89,25 @@ li a {
 .bouton a {
     display: inline-block;
     padding: 12px 24px;
-    margin-top: 10px;
+    margin-top: 5%;
 	margin-left: 700px;
+	margin-bottom: 5%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bouton2 a {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 5%;
+	margin-left: 760px;
     font-size: 16px;
     font-weight: bold;
     color: #fff;

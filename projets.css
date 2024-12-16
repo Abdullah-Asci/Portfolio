@@ -175,3 +175,14 @@ footer .colonne p {
 footer .colonne p:hover {
 	color: #fff;
 }
+
+
+
+.presentation-image3 img {
+	margin-left: 500px;
+}
+
+
+.presentation-image2 img {
+	margin-left: 60px;
+}
